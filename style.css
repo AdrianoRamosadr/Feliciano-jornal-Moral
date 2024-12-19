@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+
+h1{
+    font-size: 2.3pc;
+    font-variant: small-caps;
+}
+header a {
+    color: #00bcd4;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #444;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.imagem{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 3;
+   
+border-radius: 3px;
+}
+
+
+
+img{
+    width: 350px;
+    padding: 5px;
+   
+}
+
+.fundo{
+    background-color: #1805052a;
+    display: flex;
+   
+    width: 100%;
+    box-shadow: 1px 2px 3px #23232377;
+}
+
+.fundo:nth-child(2){
+   
+    margin-top: 9px;
+}
+.fundo:nth-child(3){
+   
+    margin-top: 9px;
+}
+
+.texto{
+   margin-left: 9px;
+   padding: 5px;
+    margin-top: 9px;
+   
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.novos-item {
+    margin-bottom: 15px;
+}
+
+.novos-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #444;
+}
+
+.novos-item p {
+    margin: 5px 0;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    
+    width: 100%;
+  
+}
+
+
+@media screen and (min-width: 250px) and (max-width:600px) {
+    
+    .fundo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        width: 100%;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+    }
+    
+    .texto{
+        font-size: 15px;
+    
+    }
+    
+}
